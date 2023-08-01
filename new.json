@@ -1,9 +1,17 @@
 {
-"name": "Мария",
-"age": 38,
-"Pets": 1,
-"salary": "1500",
-"the country you would like to visit" : ["Japan", "Australia"]
+   "name": "Мария",
+   "the country you would like to visit": ["Japan", "Australia"],
+   "pets": [
+      {
+         "name": "Стив",
+         "species": "собака",
+         "age": 1
+      },
+      {
+         "name": "Маха",
+         "species": "кошка",
+         "age": 8
+      }
+   ]
 }
-	
 	
