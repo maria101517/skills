@@ -1,15 +1,15 @@
 {
-   "name": "Мария",
+   "name": "Maria",
    "the country you would like to visit": ["Japan", "Australia"],
    "pets": [
       {
-         "name": "Стив",
-         "species": "собака",
+         "name": "Steve",
+         "species": "dog",
          "age": 1
       },
       {
-         "name": "Маха",
-         "species": "кошка",
+         "name": "Asyka",
+         "species": "cat",
          "age": 8
       }
    ]
