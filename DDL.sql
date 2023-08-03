@@ -1,5 +1,4 @@
 SQL_DDL
-Первая часть.
 
 Таблица employees
 
