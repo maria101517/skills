@@ -1,10 +1,10 @@
-SQL_DDL
+--SQL_DDL
 
-Таблица employees
+--Таблица employees
 
-Создать таблицу employees
-- id. serial,  primary key,
-- employee_name. Varchar(50), not null
+--Создать таблицу employees
+-- 	id. serial,  primary key,
+-- 	employee_name. Varchar(50), not null
 
 Скрипт:
   create table employees(
