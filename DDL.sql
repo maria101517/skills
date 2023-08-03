@@ -1,6 +1,6 @@
---Создать таблицу employees
--- 	id. serial,  primary key,
--- 	employee_name. Varchar(50), not null
+-- Создать таблицу employees
+-- id. serial,  primary key,
+-- employee_name. Varchar(50), not null
 
 Скрипт:
   create table employees(
