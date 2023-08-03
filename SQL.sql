@@ -1,16 +1,4 @@
---Создать .sql файл в котором под каждой командой напишите sql запрос который выполнит команду.
-
-CREATE TABLE public.students (
-	id serial4 NOT NULL,
-	"name" varchar(50) NOT NULL,
-	email varchar(50) NOT NULL,
-	"password" varchar(50) NOT NULL,
-	created_on timestamp NOT NULL,
-	CONSTRAINT students_email_key UNIQUE (email),
-	CONSTRAINT students_pkey PRIMARY KEY (id)
-);
-
- --1. Вывести все поля и все строки.
+--1. Вывести все поля и все строки.
  
   SELECT * 
   FROM students
