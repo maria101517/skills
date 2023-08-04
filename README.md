@@ -1,4 +1,4 @@
-  4. Создать файл “new.json”.
+Создать файл “new.json”.
  
  ```touch new.json```
 
