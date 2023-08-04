@@ -1,38 +1,22 @@
-1. Создать внешний репозиторий c названием JSON 
+1. Создать внешний репозиторий c названием skills 
 
-``` New --> Repository name --> Check "Add a README file" --> "Create repository" ```
+``` New --> Repository name ... --> Check "Add a README file" --> "Create repository" ```
 
-2. Клонировать репозиторий JSON на локальный компьютер
+2. Клонировать репозиторий skills на локальный компьютер
 
 ```git clone https://github.com/maria101517/skills.git```
 
-3. Локально создать файл json
+3. Локально создать 2 файла
  
-```touch JSON.json```
+```touch XML.xml JSON.json ```
 
 4. Добавить файл под гит.                                  
  
-```git add JSON.json```
+```git add XML.xml JSON.json```
 
 5. Закоммитить файл.                                       
 
-```git commit -m 'JSON.json'```
-
-6. Отправить файл на внешний GitHub репозиторий.          
-
-```git push```
-
-7. Создать 2 файла.            
-
-```touch XML.xml linux.txt ```
-
-8. Добавить файлы под гит.                                 
-
-```git add .```
-
-9. Закоммитить файлы.                                     
-
-```git commit -m '2 files'```
+```git commit -m 'xml/json'```
 
 10. Отправить файлы на внешний GitHub репозиторий.         
 
@@ -68,9 +52,8 @@
      
 12. Отредактировать содержание файла.
 
-```vim XML.xml```
+```cat XML.xml```
 
-нажать i
 ```
 <info>
       <favorite_movies>
@@ -86,11 +69,15 @@
    </hobbies>
 </info>
 ```
-нажать Esc
-ввести :x
+ввести ctrl+c
 
 13. Посмотреть состояние рабочего каталога.
 ```git status```
+
+
+
+
+
 
 
 
