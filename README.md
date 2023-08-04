@@ -6,7 +6,7 @@
 
 ```git clone https://github.com/maria101517/skills.git```
 
-Внутри локального JSON создать файл json
+Локально создать файл json
  
 ```touch JSON.json```
 
