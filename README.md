@@ -85,9 +85,10 @@
       <hobby>creating paintings from epoxy resin</hobby>
    </hobbies>
 </info>
+```
 нажать Esc
 ввести :x
-```
+
 
 
 
