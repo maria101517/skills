@@ -68,8 +68,10 @@
      
 12. Отредактировать содержание файла.
 
-```vim XML.xml
+```vim XML.xml```
+
 нажать i
+```
 <info>
       <favorite_movies>
          <movie>Perfume</movie>
@@ -84,7 +86,8 @@
    </hobbies>
 </info>
 нажать Esc
-ввести :x```
+ввести :x
+```
 
 
 
