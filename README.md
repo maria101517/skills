@@ -1,3 +1,10 @@
+Создать внешний репозиторий c названием JSON 
+
+``` New --> Repository name --> Check "Add a README file" --> "Create repository" ```
+
+Клонировать репозиторий JSON на локальный компьютер === git clone <repository HTTPS>
+Внутри локального JSON создать файл "new.json" ===
+
 Создать файл “new.json”.
  
 ```touch new.json```
