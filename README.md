@@ -22,9 +22,9 @@
 
 ```git push```
 
-Создать 3 файла.            
+Создать 2 файла.            
 
-```touch XML.xml linux.txt SQL.sql```
+```touch XML.xml linux.txt ```
 
 Добавить файлы под гит.                                 
 
@@ -32,40 +32,61 @@
 
 Закоммитить файлы.                                     
 
-```git commit -m '3 files'```
+```git commit -m '2 files'```
 
 Отправить файлы на внешний GitHub репозиторий.         
 
 ```git push```
 
-Отредактировать содержание файла “new2.txt” - написать 
-информацию о себе (ФИО, возраст, количество домашних 
-животных, будущая желаемая зарплата).                       
+Отредактировать содержание файла.                    
 
-```vim new2.txt
+```vim JSON.json
 нажать i
-ФИО - Червякова Надежда Александровна
-возраст - 25 лет
-количество домашних животных - 1
-желаемая зарплата - 400 долларов
+{
+   "name": "Maria",
+   "the country you would like to visit": ["Japan", "Australia"],
+   "pets": [
+      {
+         "name": "Steve",
+         "species": "dog",
+         "age": 1
+      },
+      {
+         "name": "Asyka",
+         "species": "cat",
+         "age": 8
+      }
+   ]
+}
 нажать Esc
 ввести :wq```
      
-Отредактировать содержание файла “new2.json” - написать 
-информацию о себе (ФИО, возраст, количество домашних 
-животных, будущая желаемая зарплата). 
-Всё написать в формате JSON. - vim new2.json
+Отредактировать содержание файла.
 
-```vim new2.json
+```vim XML.xml
 нажать i
-{"FIO" : "Chervaykova Nadezhda Aleksandrovna",
-"age" : 25,
-"animal" : 1,
-"salary" : 400}
+<info>
+      <favorite_movies>
+         <movie>Perfume</movie>
+         <movie>In Time</movie>
+         <movie>Inception</movie>
+      </favorite_movies>
+      <season>Spring</season>
+   <hobbies>
+      <hobby>movies</hobby>
+      <hobby>books</hobby>
+      <hobby>creating paintings from epoxy resin</hobby>
+   </hobbies>
+</info>
 нажать Esc
-ввести :wq```
+ввести :x```
 
- Добавить и закоммитить “new2.txt” одной строчкой.
+
+
+
+
+
+ Добавить и закоммитить файл одной строчкой.
 
 ```git commit new2.txt -m 'txt'```
 
