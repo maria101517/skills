@@ -1,5 +1,5 @@
- 4. Создать файл “new.json”.
-<div style="background-color: #f2f2f2; padding: 10px;"> touch new.json </div>
+ -- 4. Создать файл “new.json”.
+ touch new.json 
 
  6. Добавить файл под гит.                                  - git add new.json
 
