@@ -41,7 +41,7 @@
 11. Отредактировать содержание файла.                    
 
 ```vim JSON.json```
-```нажать i```
+нажать i
 {
    "name": "Maria",
    "the country you would like to visit": ["Japan", "Australia"],
@@ -59,7 +59,7 @@
    ]
 }
 нажать Esc
-ввести :wq```
+ввести :wq
      
 Отредактировать содержание файла.
 
