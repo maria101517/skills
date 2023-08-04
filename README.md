@@ -1,5 +1,5 @@
   4. Создать файл “new.json”.
- - text in red touch new.json 
+  5. text in red touch new.json 
 
  6. Добавить файл под гит.                                  - git add new.json
 
