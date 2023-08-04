@@ -1,5 +1,5 @@
   4. Создать файл “new.json”.
-  <span style="color: green"> touch new.json </span>
+ ~~~ touch new.json ~~~
 
  6. Добавить файл под гит.                                  - git add new.json
 
