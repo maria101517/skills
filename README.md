@@ -1,5 +1,6 @@
- == 4. Создать файл “new.json”.
- touch new.json 
+  4. Создать файл “new.json”.
+ plaintext
+- This is gray background touch new.json 
 
  6. Добавить файл под гит.                                  - git add new.json
 
