@@ -1,5 +1,5 @@
   4. Создать файл “new.json”.
- - This is gray background  touch new.json 
+ - text in red touch new.json 
 
  6. Добавить файл под гит.                                  - git add new.json
 
