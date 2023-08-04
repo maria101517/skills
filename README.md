@@ -40,8 +40,8 @@
 
 11. Отредактировать содержание файла.                    
 
-```vim JSON.json
-нажать i
+```vim JSON.json```
+```нажать i```
 {
    "name": "Maria",
    "the country you would like to visit": ["Japan", "Australia"],
