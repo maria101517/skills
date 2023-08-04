@@ -6,27 +6,25 @@
 
 ```git clone https://github.com/maria101517/skills.git```
 
-Внутри локального JSON создать файл "new.json"
-
-Создать файл “new.json”.
+Внутри локального JSON создать файл json
  
-```touch new.json```
+```touch JSON.json```
 
 Добавить файл под гит.                                  
  
-```git add new.json```
+```git add JSON.json```
 
 Закоммитить файл.                                       
 
-```git commit -m 'new.json'```
+```git commit -m 'JSON.json'```
 
 Отправить файл на внешний GitHub репозиторий.          
 
 ```git push```
 
-Создать файлы new2.json, new2.xml, new2.txt             
+Создать 3 файла.            
 
-```touch new2.json new2.xml new2.txt```
+```touch XML.xml linux.txt SQL.sql```
 
 Добавить файлы под гит.                                 
 
