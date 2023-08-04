@@ -44,7 +44,7 @@
 
 нажать i
 
-{
+```{
    "name": "Maria",
    "the country you would like to visit": ["Japan", "Australia"],
    "pets": [
@@ -59,7 +59,7 @@
          "age": 8
       }
    ]
-}
+}```
 
 нажать Esc
 ввести :wq
