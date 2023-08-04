@@ -81,7 +81,7 @@
 
 11. Отправить сразу 2 файла на внешний репозиторий
     
-```git add . && git commit -m "json/xml/2" && git push
+```git add . && git commit -m "json/xml/2" && git push```
 
 12. В веб интерфейсе GitHub создать файл и сделать Commit.
 
