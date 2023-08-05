@@ -123,9 +123,12 @@ VALUES (1000),
 ```
 
 Создать таблицу employee_salary
--id. Serial  primary key,
--employee_id. Int, not null, unique
--salary_id. Int, not null
+
+id. Serial  primary key,
+
+employee_id. Int, not null, unique
+
+salary_id. Int, not null
 
 ```
 create table employee_salary (
@@ -134,106 +137,119 @@ employee_id Int not null unique,
 salary_id Int not null
 );
 ```
+Наполнить таблицу employee_salary 40 строками:
 
---6) Наполнить таблицу employee_salary 40 строками:
--- в 10 строк из 40 вставить несуществующие employee_id
+в 10 строк из 40 вставить несуществующие employee_id
 
-	INSERT INTO employee_salary(employee_id, salary_id)
-	VALUES (1, 3),
-			(3, 5),
-			(5, 7),
-			(7, 9),
-			(9, 11),
-			(11, 13),
-			(13, 15),
-			(15, 17),
-			(17, 19),
-			(19, 21),
-			(2, 23),
-			(4, 25),
-			(6, 8),
-			(8, 16),
-			(10, 10),
-			(12, 17),
-			(14, 1),
-			(16, 3),
-			(18, 11),
-			(20, 20),
-			(21, 8),
-			(25, 7),
-			(28, 9),
-			(36, 20),
-			(35, 13),
-			(22, 16),
-			(33, 14),
-			(65, 15),
-			(47, 19),
-			(29, 17),
-			(42, 11),
-			(44, 9),
-			(56, 8),
-			(68, 16),
-			(50, 10),
-			(62, 17),
-			(24, 1),
-			(37, 3),
-			(38, 11),
-			(69, 20);
+```
+INSERT INTO employee_salary(employee_id, salary_id)
+VALUES (1, 3),
+(3, 5),
+(5, 7),
+(7, 9),
+(9, 11),
+(11, 13),
+(13, 15),
+(15, 17),
+(17, 19),
+(19, 21),
+(2, 23),
+(4, 25),
+(6, 8),
+(8, 16),
+(10, 10),
+(12, 17),
+(14, 1),
+(16, 3),
+(18, 11),
+(20, 20),
+(21, 8),
+(25, 7),
+(28, 9),
+(36, 20),
+(35, 13),
+(22, 16),
+(33, 14),
+(65, 15),
+(47, 19),
+(29, 17),
+(42, 11),
+(44, 9),
+(56, 8),
+(68, 16),
+(50, 10),
+(62, 17),
+(24, 1),
+(37, 3),
+(38, 11),
+(69, 20);
+```
 
---7) Создать таблицу roles
--- id. Serial  primary key,
--- role_name. int, not null, unique
+Создать таблицу roles
 
-Скрипт:
-	create table roles(
-	id Serial  primary key,
-	role_name Int not null unique
+id. Serial  primary key,
+
+role_name. int, not null, unique
+
+```
+create table roles(
+id Serial  primary key,
+role_name Int not null unique
 );
+```
 
+Поменять тип столба role_name с int на varchar(30)
 
---8) Поменять тип столба role_name с int на varchar(30)
-
+```
 ALTER TABLE roles 
 CHANGE role_name role_name VARCHAR(30) NOT NULL;
+```
 
---9) Наполнить таблицу roles 20 строками:
+Наполнить таблицу roles 20 строками:
 
-	INSERT INTO roles(role_name)
-	VALUES 		('Junior Python developer'),
-			('Middle Python developer'),
-			('Senior Python developer'),
-			('Junior Java developer'),
-			('Middle Java developer'),
-			('Senior Java developer'),
-			('Junior JavaScript developer'),
-			('Middle JavaScript developer'),
-			('Senior JavaScript developer'),
-			('Junior Manual QA engineer'),
-			('Middle Manual QA engineer'),
-			('Senior Manual QA engineer'),
-			('Project Manager'),
-			('Designer'),
-			('HR'),
-			('CEO'),
-			('Sales manager'),
-			('Junior Automation QA engineer'),
-			('Middle Automation QA engineer'),
-			('Senior Automation QA engineer');
+```
+INSERT INTO roles(role_name)
+VALUES 	('Junior Python developer'),
+('Middle Python developer'),
+('Senior Python developer'),
+('Junior Java developer'),
+('Middle Java developer'),
+('Senior Java developer'),
+('Junior JavaScript developer'),
+('Middle JavaScript developer'),
+('Senior JavaScript developer'),
+('Junior Manual QA engineer'),
+('Middle Manual QA engineer'),
+('Senior Manual QA engineer'),
+('Project Manager'),
+('Designer'),
+('HR'),
+('CEO'),
+('Sales manager'),
+('Junior Automation QA engineer'),
+('Middle Automation QA engineer'),
+('Senior Automation QA engineer');
+```
 
---10) Создать таблицу roles_employee
--- id. Serial  primary key,
--- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
--- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+Создать таблицу roles_employee
 
-Скрипт:
+id. Serial  primary key,
+
+employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
+
+role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+
+```
 CREATE TABLE roles_employee(
  	 id serial PRIMARY KEY,
  	 employees_id INT NOT null unique,
  	 roleshw_id INT NOT null);
+```
 
 
---11) Наполнить таблицу roles_employee 40 строками:
+Наполнить таблицу roles_employee 40 строками:
 
+```
 INSERT INTO roles_employee(employees_id, rolesHW_id)
 		VALUES  (7,2),
 			(20,4),
@@ -275,6 +291,7 @@ INSERT INTO roles_employee(employees_id, rolesHW_id)
 			(9,9),
 			(63,5),
 			(12,8);
+```
 	
 
 
