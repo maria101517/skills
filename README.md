@@ -2,15 +2,17 @@
 id. serial,  primary key,
 employee_name. Varchar(50), not null
 
-```create table employees(
-	id serial primary key,
-	employee_name Varchar(50) not null
+```
+create table employees(
+id serial primary key,
+employee_name Varchar(50) not null
 );
 ```
 
 Наполнить таблицу employee 70 строками.
 
-```INSERT INTO employees (employee_name)
+```
+INSERT INTO employees (employee_name)
 VALUES ('Eva'), 
 ('Michael'), 
 ('Emma'), 
@@ -82,20 +84,19 @@ VALUES ('Eva'),
 ('Mia'), 
 ('Ella');```
 
---Таблица salary
-
---3) Создать таблицу salary
--- id. Serial  primary key,
--- monthly_salary. Int, not null
-
-Скрипт:
+Создать таблицу salary
+id. Serial  primary key,
+monthly_salary. Int, not null
+```
 create table salary(
 	id serial primary key,
 	monthly_salary Int not null
 );
+```
 
---4) Наполнить таблицу salary 15 строками:
-Скрипт: 
+Наполнить таблицу salary 15 строками:
+
+```
 INSERT INTO salary (monthly_salary)
 VALUES (1000),
 		(1100),
@@ -113,6 +114,7 @@ VALUES (1000),
 		 (2300),
 		 (2400),
 		 (2500);
+   ```
 
 --Таблица employee_salary
 --5) Создать таблицу employee_salary
