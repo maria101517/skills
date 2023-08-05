@@ -83,11 +83,7 @@ VALUES ('Eva'),
 ('Ella');
 
 ```
-Создать таблицу salary
-
-id. Serial  primary key,
-
-monthly_salary. Int, not null
+Создать таблицу salary<br>id. Serial  primary key,<br>monthly_salary. Int, not null
   
 ```
 create table salary(
