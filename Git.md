@@ -97,53 +97,53 @@
 
 15. На локальном репозитории создать веткую
 
-```git branch Linux```
+```git branch Mobile_testing```
 
-```git branch SQL```
+```git branch Charles```
 
 16. Запушить ветки на внешний репозиторий.
  
 ```git push -u origin --all```
 
-17. В ветке Linux создать текстовый документ.
+17. В ветке Mobile_testing создать текстовый документ.
 
-```git checkout Linux``` 
+```git checkout Mobile_testing``` 
 
-```vim Linux.txt```
+```vim Mobile_testing.txt```
 
-18. Запушить структуру файла Linux на внешний репозиторий.
+18. Запушить структуру файла Mobile_testing на внешний репозиторий.
 
-```git add Linux.txt```
+```git add Mobile_testing.txt```
 
 ```git commit -m "comment"```
 
-```git push origin Linux```
+```git push origin Mobile_testing```
 
-19. Вмержить ветку Linux в Main.
+19. Вмержить ветку Mobile_testing в Main.
 
 ```git checkout main``` 
 
-```git merge Linux```
+```git merge Mobile_testing```
 
 20. Запушить main на внешний репозиторий.
 
 ```git push origin main```.
 
-21. В ветке SQL создать файл.
+21. В ветке Charles создать файл.
 
-```git checkout SQL```
+```git checkout Charles```
 
-```vim SQL.sql```
+```vim Charles.txt```
 
 23. Запушить структуру на внешний репозиторий.
 
-```git add SQL.sql```
+```git add Charles.txt```
  
 ```git commit -m "comment"```
 
-```git push origin SQL```
+```git push origin Charles```
 
-24. На внешнем репозитории сделать Pull Request ветки SQL в main
+24. На внешнем репозитории сделать Pull Request ветки Charles в main
 
 ```Compare & pull request --> Create pull request --> Merge pull request --> Confirm merge```
 
