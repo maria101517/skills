@@ -1,6 +1,6 @@
 Создать таблицу employees
--id. serial,  primary key,
--employee_name. Varchar(50), not null
+- id. serial,  primary key,
+- employee_name. Varchar(50), not null
 
 ```
 create table employees(
@@ -86,8 +86,8 @@ VALUES ('Eva'),
 
 ```
 Создать таблицу salary
--id. Serial  primary key,
--monthly_salary. Int, not null
+- id. Serial  primary key,
+- monthly_salary. Int, not null
   
 ```
 create table salary(
