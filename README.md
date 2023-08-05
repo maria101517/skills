@@ -129,9 +129,19 @@
 
 ```git push origin main```.
 
-21. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
+21. В ветке SQL создать файл.
 
-22. 
+```git checkout SQL```
+
+```vim SQL.sql```
+
+23. Запушить структуру на внешний репозиторий.
+
+```git add SQL.sql```
+ 
+```git commit -m "comment"```
+
+```git push origin SQL```
 
 
 
