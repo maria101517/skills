@@ -1,4 +1,4 @@
-Создать таблицу employees <br>id.  serial, primary key,  employee_name. Varchar(50), not null
+Создать таблицу employees <br>id.  serial, primary key,  <br>employee_name. Varchar(50), not null
 
 ```
 create table employees(
