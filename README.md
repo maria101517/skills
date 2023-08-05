@@ -5,7 +5,8 @@ employee_name. Varchar(50), not null
 ```create table employees(
 id serial primary key,
 employee_name Varchar(50) not null
-);```
+);
+```
 
 Наполнить таблицу employee 70 строками.
 
