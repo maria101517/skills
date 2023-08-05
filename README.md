@@ -88,8 +88,10 @@ VALUES ('Eva'),
 
 ```
 Создать таблицу salary
-- id. Serial  primary key,
-- monthly_salary. Int, not null
+
+id. Serial  primary key,
+
+monthly_salary. Int, not null
   
 ```
 create table salary(
