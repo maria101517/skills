@@ -107,6 +107,34 @@
 
 17. В ветке Linux создать текстовый документ.
 
+```git checkout Linux``` 
+
+```vim Linux.txt```
+
+18. Запушить структуру файла Linux на внешний репозиторий.
+
+```git add Linux.txt```
+
+```git commit -m "comment"```
+
+```git push origin Linux```
+
+19. Вмержить ветку Linux в Main.
+
+```git checkout main``` 
+
+```git merge Linux```
+
+20. Запушить main на внешний репозиторий.
+
+```git push origin main```.
+
+21. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
+
+22. 
+
+
+
 
 
 
