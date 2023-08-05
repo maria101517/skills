@@ -143,8 +143,15 @@
 
 ```git push origin SQL```
 
+24. На внешнем репозитории сделать Pull Request ветки SQL в main
 
+```Compare & pull request --> Create pull request --> Merge pull request --> Confirm merge```
 
+25. Синхронизировать Внешнюю и Локальную ветки Main.
+
+```git checkout main```
+
+```git pull origin main```
 
 
 
