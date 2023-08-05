@@ -83,6 +83,7 @@ VALUES ('Eva'),
 ('Mary'), 
 ('Mia'), 
 ('Ella');
+
 ```
 
 Создать таблицу salary
