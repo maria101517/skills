@@ -88,4 +88,4 @@
 
 ```date +"%d.%m.%y"```
 
-history.
+history
